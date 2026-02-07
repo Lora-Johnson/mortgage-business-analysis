@@ -4,11 +4,12 @@
 Mortgage delinquency rates help assess borrower stress and overall loan portfolio health. Early-stage delinquencies (30–89 days past due) may indicate emerging financial strain, while 90+ day delinquencies often signal elevated risk. Linking these trends to unemployment data adds actionable economic context.
 
 ## Loan-to-Value and Debt-to-Income Ratios
-Loan-to-Value (LTV) and Debt-to-Income (DTI) ratios are two of the most reliable indicators of mortgage delinquency risk because they capture both borrower leverage and cash-flow strain.
+Loan-to-Value (LTV) and Debt-to-Income (DTI) ratios are two of the most reliable indicators of mortgage delinquency risk because they capture both borrower leverage and cash-flow strain. LTV reflects how much equity a borrower has in the property. DTI measures a borrower’s monthly debt obligations relative to income. 
 
-LTV reflects how much equity a borrower has in the property. Higher LTV ratios indicate minimal borrower equity, which historically correlates with higher default risk. When home values decline or financial stress increases, borrowers with little or no equity have reduced incentive or ability to remain current on their mortgage.
+### What are "Bad" LTV and DTI Ratios
+LTV ratios above 80 percent are considered higher risk because borrowers have limited equity, increasing vulnerability to home price declines and reducing incentives to remain current. At this level, lenders typically require private mortgage insurance (PMI) to offset the higher probability of default.
 
-DTI measures a borrower’s monthly debt obligations relative to income. Elevated DTI ratios signal limited financial flexibility, making borrowers more vulnerable to income shocks such as job loss, medical expenses, or inflation-driven cost increases.
+DTI ratios above 50 percent indicate that a borrower’s debt obligations consume more than half of their gross income, leaving little capacity to absorb income disruptions or rising expenses. Borrowers with elevated DTIs are more likely to experience payment instability, particularly during periods of unemployment or economic stress.
 
 When analyzed together, LTV and DTI provide a more complete risk profile. Borrowers with both high LTV and high DTI are particularly susceptible to delinquency, as they lack both equity buffers and disposable income. Tracking changes in these metrics over time allows lenders to identify emerging stress before delinquency occurs.
 
