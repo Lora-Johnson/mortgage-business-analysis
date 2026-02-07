@@ -3,7 +3,7 @@
 ## Mortgage Delinquency Rates
 Mortgage delinquency rates help assess borrower stress and overall loan portfolio health. Early-stage delinquencies (30–89 days past due) may indicate emerging financial strain, while 90+ day delinquencies often signal elevated risk. Linking these trends to unemployment data adds actionable economic context.
 
-## Loan-to-Value and Debt-to-Income Ratios
+## Loan-to-Value and Debt-to-Income Ratios?
 Loan-to-Value (LTV) and Debt-to-Income (DTI) ratios are two of the most reliable indicators of mortgage delinquency risk because they capture both borrower leverage and cash-flow strain. LTV reflects how much equity a borrower has in the property. DTI measures a borrower’s monthly debt obligations relative to income. 
 
 ### What are "Bad" LTV and DTI Ratios
