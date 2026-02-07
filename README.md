@@ -3,8 +3,28 @@
 ## Mortgage Delinquency Rates
 Mortgage delinquency rates help assess borrower stress and overall loan portfolio health. Early-stage delinquencies (30–89 days past due) may indicate emerging financial strain, while 90+ day delinquencies often signal elevated risk. Linking these trends to unemployment data adds actionable economic context.
 
+## Loan-to-Value and Debt-to-Income Ratios
+Loan-to-Value (LTV) and Debt-to-Income (DTI) ratios are two of the most reliable indicators of mortgage delinquency risk because they capture both borrower leverage and cash-flow strain.
+
+LTV reflects how much equity a borrower has in the property. Higher LTV ratios indicate minimal borrower equity, which historically correlates with higher default risk. When home values decline or financial stress increases, borrowers with little or no equity have reduced incentive or ability to remain current on their mortgage.
+
+DTI measures a borrower’s monthly debt obligations relative to income. Elevated DTI ratios signal limited financial flexibility, making borrowers more vulnerable to income shocks such as job loss, medical expenses, or inflation-driven cost increases.
+
+When analyzed together, LTV and DTI provide a more complete risk profile. Borrowers with both high LTV and high DTI are particularly susceptible to delinquency, as they lack both equity buffers and disposable income. Tracking changes in these metrics over time allows lenders to identify emerging stress before delinquency occurs.
+
 ## Unemployment Insurance Exhaustion Rate
 The unemployment insurance (UI) exhaustion rate is the percentage of individuals who have used up all of their allotted state-funded, regular unemployment benefits before finding a new job. A rising rate indicates worsening economic conditions, as more people are struggling to find employment within the standard, typically 26-week, timeframe. 
+
+Unemployment exhaustion rates offer forward-looking insight into borrower distress that traditional delinquency metrics often miss.
+When borrowers approach or reach unemployment insurance exhaustion, they are transitioning from temporary income disruption to sustained financial hardship. This significantly increases the probability of mortgage delinquency, especially for borrowers already exhibiting elevated DTI ratios.
+
+From a business and risk-management perspective, this data enables proactive intervention:
+
+   * Targeted outreach: Lenders can identify at-risk borrowers and engage them before payments are missed, offering forbearance options, loan modifications, or repayment plans.
+   * Direct assistance opportunities: Exhaustion data supports tailored programs that help borrowers stabilize housing payments during prolonged unemployment.
+   * Community reinvestment initiatives: For larger institutions, this insight supports CRA-aligned efforts by directing resources to communities experiencing concentrated unemployment stress, improving both borrower outcomes and regulatory positioning.
+
+By combining unemployment exhaustion data with LTV and DTI analysis, institutions can move from reactive delinquency management to predictive risk mitigation and community
 
 ### What is a "Bad" Exhaustion Rate?
 Severe (40%+): Historically, when 40% or more of recipients exhaust their benefits, it signifies a major economic failure to create jobs, comparable to or worse than major recessionary periods (e.g., 2003, early 1980s).
@@ -14,4 +34,8 @@ High (30% - 39%): Signals that the labor market is difficult and long-term unemp
 Stable/Normal (20% - 29%): In a stable, growing economy, it is normal for a portion of the population to take longer to find suitable work, though this number should not spike rapidly. 
 
 It is important to note that a "good" (low) unemployment rate does not always mean a low exhaustion rate. Even if the overall unemployment rate is relatively low (e.g., around 4-5%), a high exhaustion rate indicates that those who are unemployed are struggling intensely to find new employment.
+
+
+
+
 
