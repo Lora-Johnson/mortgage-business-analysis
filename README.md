@@ -1,3 +1,4 @@
+remote_theme: just-the-docs/just-the-docs
 <div id="user-content-toc" align="center">
   <ul style="list-style: none;">
     <summary><h1>Mortgage Industry Business Analysis</h1></summary>
