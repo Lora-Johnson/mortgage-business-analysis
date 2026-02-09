@@ -1,12 +1,10 @@
-remote_theme: just-the-docs/just-the-docs
 <div id="user-content-toc" align="center">
   <ul style="list-style: none;">
     <summary><h1>Mortgage Industry Business Analysis</h1></summary>
   </ul>
 </div>
 
-***All data used in this repository is synthetic or publicly available.
-Scenarios are illustrative and do not represent real systems.***
+A data analysis project examining U.S. mortgage delinquency trends and their relationship to economic indicators such as unemployment and borrower risk metrics. All data used in this repository is synthetic or publicly available. Scenarios are illustrative and do not represent real systems.
 
 ## Mortgage Delinquency Rates
 Mortgage delinquency rates help assess borrower stress and overall loan portfolio health. Early-stage delinquencies (30–89 days past due) may indicate emerging financial strain, while 90+ day delinquencies often signal elevated risk. Linking these trends to unemployment data adds actionable economic context.
