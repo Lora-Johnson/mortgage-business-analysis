@@ -49,6 +49,14 @@ The following data set can be ingested into a data warehouse using CSV files dow
 [Unemployment Exhaustion Data](Unemployment Exhaustion by State 3rd Quarter 2025.csv)
 
 ### Table Schemas and Stored Procedures
+[Delinquency Data](CREATE TABLE delinquency data.sql)
+
+[Unemployment Forecast](CREATE TABLE unemployment forecast.sql)
+
+[Loan-Level Delinquencies with Exhaustion Rate](CREATE PROCEDURE loan_level_del_exhaust.sql)
+
+[Loan Aggregate Delinquencies with Exhaustion Rate](CREATE PROCEDURE loan_aggregate_del_exhaust.sql)
+
 
 
 ### Data Analysis
