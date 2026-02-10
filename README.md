@@ -45,5 +45,5 @@ It is important to note that a "good" (low) unemployment rate does not always me
 ## Data Sets
 The following data set can be ingested into a data warehouse using CSV files downloaded from the DOL unemployment summary tables. Because the organization updates this data quarterly, building an automated data pipeline is not necessary.
 
-[View Unemployment Data](Unemployment Exhaustion by State 3rd Quarter 2025.csv) | [Download Unemployment Data](Unemployment Exhaustion by State 3rd Quarter 2025.csv)
+[View | Download Unemployment Data](Unemployment Exhaustion by State 3rd Quarter 2025.csv)
 
