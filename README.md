@@ -43,7 +43,15 @@ Stable/Normal (20% - 29%): In a stable, growing economy, it is normal for a port
 It is important to note that a "good" (low) unemployment rate does not always mean a low exhaustion rate. Even if the overall unemployment rate is relatively low (e.g., around 4-5%), a high exhaustion rate indicates that those who are unemployed are struggling intensely to find new employment.
 
 ## Data Sets
+### Unemployment Exhaustion Rate by State - 3rd Quarter 2025
 The following data set can be ingested into a data warehouse using CSV files downloaded from the DOL unemployment summary tables. Because the organization updates this data quarterly, building an automated data pipeline is not necessary.
 
 [Unemployment Exhaustion Data](Unemployment Exhaustion by State 3rd Quarter 2025.csv)
+
+### Table Schemas and Stored Procedures
+
+
+### Data Analysis
+
+
 
