@@ -44,17 +44,21 @@ It is important to note that a "good" (low) unemployment rate does not always me
 
 ## Data Sets
 ### Unemployment Exhaustion Rate by State - 3rd Quarter 2025
-The following data set can be ingested into a data warehouse using CSV files downloaded from the DOL unemployment summary tables. Because the organization updates this data quarterly, building an automated data pipeline is not necessary.
+The following data set can be ingested into a data warehouse using CSV files downloaded from the DOL unemployment summary tables. Because the organization updates this data quarterly, building an automated data pipeline is not necessary. 
 
 [Unemployment Exhaustion Data](Unemployment Exhaustion by State 3rd Quarter 2025.csv)
 
 ### Table Schemas and Stored Procedures
+This is the table schema that stores loan-level delinquency information. In a production schema, state and zip code would typically reside in a separate loan details table and be joined to delinquency_data via a foreign key. For this example, only the delinquency_data table is needed. State and zip code columns are included solely to support the final analysis.
 [Delinquency Data](CREATE TABLE delinquency data.sql)
 
+This is the table schema for the data ingested from DOL unemployment summary tables.
 [Unemployment Forecast](CREATE TABLE unemployment forecast.sql)
 
-[Loan-Level Delinquencies with Exhaustion Rate](CREATE PROCEDURE loan_level_del_exhaust.sql)
+This stored procedure 
+[Loan Level Delinquencies with Exhaustion Rate](CREATE PROCEDURE loan_level_del_exhaust.sql)
 
+This stored procedure
 [Loan Aggregate Delinquencies with Exhaustion Rate](CREATE PROCEDURE loan_aggregate_del_exhaust.sql)
 
 
