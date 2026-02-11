@@ -44,22 +44,22 @@ It is important to note that a "good" (low) unemployment rate does not always me
 
 ## Data Sets
 ### Unemployment Exhaustion Rate by State - 3rd Quarter 2025
-The following data set can be ingested into a data warehouse using CSV files downloaded from the DOL unemployment summary tables. Because the organization updates this data quarterly, building an automated data pipeline is not necessary. 
+The following data set can be ingested into a data warehouse using CSV files downloaded from the DOL unemployment summary tables. Because the organization updates this data quarterly, building an automated data pipeline is not necessary.<br/> 
 [Unemployment Exhaustion Data](Unemployment Exhaustion by State 3rd Quarter 2025.csv)
 
 ### Table Schemas and Stored Procedures
-This is the table schema that stores loan-level delinquency information. In a production schema, state and zip code would typically reside in a separate loan details table and be joined to delinquency_data via a foreign key. For this example, only the delinquency_data table is needed. State and zip code columns are included solely to support the final analysis.
+This is the table schema that stores loan-level delinquency information. In a production schema, state and zip code would typically reside in a separate loan details table and be joined to delinquency_data via a foreign key. For this example, only the delinquency_data table is needed. State and zip code columns are included solely to support the final analysis.<br/>
 [Delinquency Data](CREATE TABLE delinquency data.sql)
 
-This is the table schema for the data ingested from DOL unemployment summary tables.
+This is the table schema for the data ingested from DOL unemployment summary tables.<br/>
 [Unemployment Forecast](CREATE TABLE unemployment forecast.sql)
 
-This stored procedure is designed to generate a loan-level delinquency and risk assessment report for a specified U.S. state. The procedure accepts a state code as an input parameter and retrieves loan performance data from the delinquency_data table, integrating it with projected unemployment data from the unemployment_forecast table. The exhaustion rate is included to allow analysts to reference the state-specific rate directly within the result set, eliminating the need for an additional query.
+This stored procedure is designed to generate a loan-level delinquency and risk assessment report for a specified U.S. state. The procedure accepts a state code as an input parameter and retrieves loan performance data from the delinquency_data table, integrating it with projected unemployment data from the unemployment_forecast table. The exhaustion rate is included to allow analysts to reference the state-specific rate directly within the result set, eliminating the need for an additional query.<br/>
 [Loan Level Delinquencies with Exhaustion Rate](CREATE PROCEDURE loan_level_del_exhaust.sql)
 
 This stored procedure generates an aggregated count of high-risk loans by state, incorporating both loan performance metrics and unemployment forecast data. The procedure accepts an optional state parameter, allowing users to retrieve results for a specific state or for all states when no parameter is provided.
 
-Loans included in the aggregation meet defined stress criteria, including elevated Loan-to-Value (LTV ≥ 90%), high Debt-to-Income ratios (DTI ≥ 50%), significant delinquency status (≥ 90 days past due), and states with high unemployment exhaustion rates (≥ 35%). This procedure supports portfolio-level stress monitoring and risk concentration analysis under adverse economic conditions.
+Loans included in the aggregation meet defined stress criteria, including elevated Loan-to-Value (LTV ≥ 90%), high Debt-to-Income ratios (DTI ≥ 50%), significant delinquency status (≥ 90 days past due), and states with high unemployment exhaustion rates (≥ 35%). This procedure supports portfolio-level stress monitoring and risk concentration analysis under adverse economic conditions.<br/>
 [Loan Aggregate Delinquencies with Exhaustion Rate](CREATE PROCEDURE loan_aggregate_del_exhaust.sql)
 
 ## Data Analysis
