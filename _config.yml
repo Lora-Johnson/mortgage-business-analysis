@@ -1,2 +1,8 @@
 remote_theme: just-the-docs/just-the-docs
 title: Lora Johnson
+
+nav_external_links:
+  - title: "Mortgage Delinquency Rates"
+    url: "https://lora-johnson.github.io/mortgage-business-analysis/#mortgage-delinquency-rates"
+  
+
