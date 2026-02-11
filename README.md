@@ -62,9 +62,7 @@ This stored procedure generates an aggregated count of high-risk loans by state,
 Loans included in the aggregation meet defined stress criteria, including elevated Loan-to-Value (LTV ≥ 90%), high Debt-to-Income ratios (DTI ≥ 50%), significant delinquency status (≥ 90 days past due), and states with high unemployment exhaustion rates (≥ 35%). This procedure supports portfolio-level stress monitoring and risk concentration analysis under adverse economic conditions.
 [Loan Aggregate Delinquencies with Exhaustion Rate](CREATE PROCEDURE loan_aggregate_del_exhaust.sql)
 
-
-
-### Data Analysis
+## Data Analysis
 
 
 
