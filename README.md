@@ -48,10 +48,10 @@ The following data set can be ingested into a data warehouse using CSV files dow
 [Unemployment Exhaustion Data](Unemployment Exhaustion by State 3rd Quarter 2025.csv)
 
 ### Table Schemas and Stored Procedures
-The following CREATE TABLE statement defines the table schema that stores loan-level delinquency information. In a production schema, state and zip code would typically reside in a separate loan details table and be joined to delinquency_data via a foreign key. For this example, only the `delinquency_data` table is needed. `State` and `zip_code` columns are included solely to support the final analysis.<br/>
+The following `CREATE TABLE` statement defines the table schema that stores loan-level delinquency information. In a production schema, state and zip code would typically reside in a separate loan details table and be joined to delinquency_data via a foreign key. For this example, only the `delinquency_data` table is needed. `State` and `zip_code` columns are included solely to support the final analysis.<br/>
 [Delinquency Data](CREATE TABLE delinquency data.sql)
 
-The following CREATE TABLE statement defines the table schema for the data ingested from DOL unemployment summary tables.<br/>
+The following `CREATE TABLE` statement defines the table schema for the data ingested from DOL unemployment summary tables.<br/>
 [Unemployment Forecast](CREATE TABLE unemployment forecast.sql)
 
 The following stored procedure is designed to generate a loan-level delinquency and risk assessment report for a specified U.S. state. The procedure accepts a state code as an input parameter and retrieves loan performance data from the `delinquency_data` table, integrating it with projected unemployment data from the `unemployment_forecast` table. The exhaustion rate is included to allow analysts to reference the state-specific rate directly within the result set, eliminating the need for an additional query.<br/>
