@@ -4,21 +4,30 @@ title: Lora Johnson
 nav_external_links:
   - title: "Mortgage Delinquency Rates"
     url: "https://lora-johnson.github.io/mortgage-business-analysis/#mortgage-delinquency-rates"
+    hide_icon: true
   - title: "Loan-to-Value and Debt-to-Income Ratios"
     url: "https://lora-johnson.github.io/mortgage-business-analysis/#loan-to-value-and-debt-to-income-ratios"
+    hide_icon: true
   - title: "What are “Bad” LTV and DTI Ratios?"
     url: "https://lora-johnson.github.io/mortgage-business-analysis/#what-are-bad-ltv-and-dti-ratios"
+    hide_icon: true
   - title: "Unemployment Insurance Exhaustion Rate"
     url: "https://lora-johnson.github.io/mortgage-business-analysis/#unemployment-insurance-exhaustion-rate"
+    hide_icon: true
   - title: "What is a “Bad” Exhaustion Rate?"
     url: "https://lora-johnson.github.io/mortgage-business-analysis/#what-is-a-bad-exhaustion-rate"
+    hide_icon: true
   - title: "Data Sets"
     url: "https://lora-johnson.github.io/mortgage-business-analysis/#data-sets"
+    hide_icon: true
   - title: "Unemployment Exhaustion Rate by State - 3rd Quarter 2025"
     url: "https://lora-johnson.github.io/mortgage-business-analysis/#unemployment-exhaustion-rate-by-state---3rd-quarter-2025"
+    hide_icon: true
   - title: "Table Schemas and Stored Procedures"
     url: "https://lora-johnson.github.io/mortgage-business-analysis/#table-schemas-and-stored-procedures"
+    hide_icon: true
   - title: "Data Analysis"
     url: "https://lora-johnson.github.io/mortgage-business-analysis/#data-analysis"
+    hide_icon: true
   
 
