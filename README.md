@@ -63,11 +63,15 @@ Loans included in the aggregation meet defined stress criteria, including elevat
 [Loan Aggregate Delinquencies with Exhaustion Rate](CREATE PROCEDURE loan_aggregate_del_exhaust.sql)
 
 ## Data Analysis
-The dashboard provides a geospatial visualization of U.S. states with elevated mortgage delinquency rates and high unemployment exhaustion rates.
+The dashboard provides a geospatial visualization of U.S. states with elevated mortgage delinquency rates and high unemployment exhaustion rates. 
 
 States are color-coded using a red gradient scale to represent the concentration of loans that meet both criteria. Darker shades of red indicate a higher volume of loans associated with elevated mortgage delinquency and unemployment exhaustion metrics.
 
 Each state is interactive and can be selected to display the exact number of qualifying loans within that state.
 
 [High Mortgage Delinquencies with High Unemployment Exhaustion Rates](https://public.tableau.com/views/MortgageDeliquenciesbyState/Sheet1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
+If real zip code–level data were incorporated, the dashboard could support geographic drill-down functionality to the zip code level. This would enable users to identify and analyze specific areas within a state that are experiencing rising delinquency rates and extended unemployment insurance claims durations.
+
+[]()
 
