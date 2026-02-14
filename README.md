@@ -72,3 +72,9 @@ Each state is interactive and can be selected to display the exact number of qua
 [High Mortgage Delinquencies with High Unemployment Exhaustion Rates](https://public.tableau.com/views/MortgageDeliquenciesbyState/Sheet1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 If real zip code–level data were incorporated, the dashboard could support geographic drill-down functionality to the zip code level. This would enable users to identify and analyze specific areas within a state that are experiencing rising delinquency rates and extended unemployment insurance claims durations. 
+
+The following stored procedure generates the zip code-level data.
+
+[Zip Code Level Delinquencies](CREATE PROCEDURE zip_code_del_exhaust.sql)
+
+All stored procedures within this project can be scheduled as recurring jobs to execute at defined intervals, ensuring the data remains current and aligned with reporting requirements.
