@@ -4,7 +4,7 @@ CREATE PROCEDURE zip_code_del_exhaust (
     IN p_state  VARCHAR(2)
 )
 BEGIN
-    SELECT 
+     SELECT 
         COUNT(del.loan_id) AS loan_number,
         del.zip_code 
     FROM delinquency_data del
@@ -15,8 +15,9 @@ BEGIN
         AND del.days_past_due >= 90
         AND emp.unempl_ex >= 0.35
         AND p_state = del.state
-     GROUP BY del.zip_code
-     ORDER BY del.zip_code;
+    GROUP BY del.zip_code
+    ORDER BY loan_number DESC
+    LIMIT 10;
 END$$
 
 DELIMITER ;
